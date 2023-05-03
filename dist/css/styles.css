@@ -179,6 +179,11 @@ h5,
   font-size: 1.25rem;
 }
 
+.mb-3{
+color: #0a53be;
+}
+
+
 h6,
 .h6 {
   font-size: 1rem;
@@ -5252,8 +5257,14 @@ fieldset:disabled .btn {
 }
 
 .card-footer:last-child {
+  text-align: center;
+
+  margin: auto;
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
 }
+
+
+
 
 .card-header-tabs {
   margin-right: -0.5rem;
