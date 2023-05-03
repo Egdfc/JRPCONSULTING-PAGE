@@ -4609,15 +4609,27 @@ fieldset:disabled .btn {
 .tab-content>.active {
   display: block;
 }
-
+.navegacionbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 20px 20px;
+  z-index: 100000;
+}
 .navbar {
+  width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .navbar>.container,

@@ -1,4 +1,4 @@
 window.addEventListener("scroll",function(){
-var header = this.document.querySelector("navbar navbar-expand-lg navbar-dark bg-blue");
+var header = this.document.querySelector(".navegacionbar");
 header.classList.toggle("sticky",window.scrollY> 0);
 })
