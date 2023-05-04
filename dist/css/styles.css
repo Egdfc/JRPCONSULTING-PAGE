@@ -12316,6 +12316,7 @@ html {
 }
 
 .heading-title {
+  width: 100%;
   font-size: 52px;
   font-weight: 300;
   line-height: 1.3;
