@@ -1,5 +1,6 @@
 window.addEventListener("scroll",function(){
 var header = this.document.querySelector(".navegacionbar");
+<<<<<<< HEAD
 header.classList.toggle("sticky",window.scrollY> 0);
 })
 
@@ -26,3 +27,7 @@ var btnEnviar=document.getElementById('submitButton');
 btnEnviar.onclick = presionaEnviar;
 
 
+=======
+header.classList.toggle("sticky",window.scrollY > 0);
+})
+>>>>>>> b83475f ("quite padding navbar")
