@@ -12435,6 +12435,10 @@ html {
   color: blue;
 }
 
+.titulo2{
+  color: var(--bs-purple);
+}
+
 .imagenN{
   transform: rotate(90deg);
   transform: rotate(-45deg);
