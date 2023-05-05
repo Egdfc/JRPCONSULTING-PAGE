@@ -68,7 +68,7 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
-                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <form name="form1" id="contactForm" data-sb-form-api-token="API_TOKEN" method="post" onsubmit="return Comprobar(this)" action="mailto:efcbasketcase@gmail.com?subject=contactoJRP" enctype="text/plain">
                                 <!-- Name input-->
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..."
@@ -104,6 +104,8 @@
                                     <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es
                                         requerido.</div>
                                 </div>
+
+                                
                                 <!-- Submit success message-->
                                 <!---->
                                 <!-- This is what your users will see when the form-->
@@ -114,7 +116,7 @@
                                         To activate this form, sign up at
                                         <br />
                                         <a
-                                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                            href="https://startbootstrap.com/solution/contact-forms"></a>
                                     </div>
                                 </div>
                                 <!-- Submit error message-->
@@ -125,7 +127,7 @@
                                     <div class="text-center text-danger mb-3">Error al enviar el mensaje!</div>
                                 </div>
                                 <!-- Submit Button-->
-                                <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                <div class="d-grid"><button class="btn btn-primary btn-lg " id="submitButton"
                                         type="submit">Enviar</button></div>
                             </form>
                         </div>
