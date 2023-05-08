@@ -4,6 +4,7 @@ header.classList.toggle("sticky",window.scrollY> 0);
 })
 
 
+
 function Comprobar(obj){
   if ( !obj.acuerdo[0].checked )
   {
@@ -30,3 +31,4 @@ function presionaEnviar(){
     return formulario;
 
 }
+

@@ -68,10 +68,10 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
-                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <form name="form1" id="contactForm" data-sb-form-api-token="API_TOKEN" method="post" action='php/enviar.php'>
                                 <!-- Name input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    <input class="form-control" name ="nombre" id="nombre" type="text" placeholder="Enter your name..."
                                         data-sb-validations="required" />
                                     <label for="name">Nombre</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">Nombre es requerido.
@@ -79,17 +79,17 @@
                                 </div>
                                 <!-- Email address input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                    <input class="form-control" name="email" id="email" type="email" placeholder="name@example.com"
                                         data-sb-validations="required,email" />
-                                    <label for="email">Correo Electronico</label>
+                                    <label for="email">Correo Electrónico<n/label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">Correo Electrónico
                                         no es válido.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Correco electronico no
+                                    <div class="invalid-feedback" data-sb-feedback="email:email">Correo electrónico no
                                         es válido.</div>
                                 </div>
                                 <!-- Phone number input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                    <input class="form-control" name="telefono" id="phone" type="tel" placeholder="(123) 456-7890"
                                         data-sb-validations="required" />
                                     <label for="phone">Número de celular</label>
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">Número de celular
@@ -97,13 +97,19 @@
                                 </div>
                                 <!-- Message input-->
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" type="text"
+                                    <textarea class="form-control" name="mensaje" id="mensaje" type="text"
                                         placeholder="Enter your message here..." style="height: 10rem"
                                         data-sb-validations="required"></textarea>
                                     <label for="message">Mensaje</label>
                                     <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es
                                         requerido.</div>
                                 </div>
+                                <div class="form-floating mb-3">
+                                    <input type="checkbox" required> Acepto la politica de privacidad.
+
+                                </div>
+
+                                
                                 <!-- Submit success message-->
                                 <!---->
                                 <!-- This is what your users will see when the form-->
@@ -114,7 +120,7 @@
                                         To activate this form, sign up at
                                         <br />
                                         <a
-                                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                            href="https://startbootstrap.com/solution/contact-forms"></a>
                                     </div>
                                 </div>
                                 <!-- Submit error message-->
@@ -125,8 +131,9 @@
                                     <div class="text-center text-danger mb-3">Error al enviar el mensaje!</div>
                                 </div>
                                 <!-- Submit Button-->
-                                <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                <div class="d-grid"><button class="btn btn-primary btn-lg " id="submitButton"
                                         type="submit">Enviar</button></div>
+                                <input type="hidden" name="_next" value="contact.html"
                             </form>
                         </div>
                     </div>
@@ -224,28 +231,6 @@
 
 
             </div>
-            <h5> &nbsp </h5>
-<li class="img-fluid">
-          <img src="images\linkf.png" alt="Responsive image" width="39" height="40">
-           <p> <br></a></p>
-</li> 
-</ul>
-<h5> &nbsp </h5>
- <ul class="stick">
-    <li class="img-fluid">
-<div align="right" id="google_translate_element" class="google"></div>/
-
-</li>
-<ul class="stick">
-  
-<script type="text/javascript">
-function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
-        }
-</script>
-</ul>
-</div>
-
 </body>
 
 </html>
