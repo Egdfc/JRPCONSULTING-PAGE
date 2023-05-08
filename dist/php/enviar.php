@@ -10,7 +10,7 @@
                         "Mensaje:".$mensaje;
 
 
-	mail('efcbasketcase@gmail.com', $asunto, $mensaje)
+	mail('ventas@jprconsulting.com', $asunto, $mensaje)
 		echo "<script>alert("correo enviado exitosamente")</script>" ;
         echo "<script>setTimeout(\"location.href='contact.html'\",500)</script>" ;
 
