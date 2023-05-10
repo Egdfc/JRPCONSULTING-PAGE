@@ -12639,7 +12639,7 @@ hr {
 .social-icons.bigger-icons a{font-size:38px;padding-left: 14px;padding-right: 14px;}
 .social-icons a:hover { text-decoration: none !important; }
 .colored-icons .link-vk, .link-vk:hover{ color:#5181B8; }
-.colored-icons .link-facebook, .link-facebook:hover{ color:#3b5998; }
+.colored-icons .link-facebook, .link-facebook:hover{ color:#000; }
 .colored-icons .link-twitter, .link-twitter:hover{ color:#1da1f2; }
 .colored-icons .link-telegram, .link-telegram:hover{ color:#28A0D4; }
 .colored-icons .link-instagram, .link-instagram:hover{ color:#833ab4; }
@@ -12647,7 +12647,8 @@ hr {
 .colored-icons .link-pinterest, .link-pinterest:hover{ color:#e60023; }
 .colored-icons .link-linkedin, .link-linkedin:hover{ color:#0077b5; }
 
-.stick li{ border-radius: 8px; margin-top: 2px;list-style-type:none;background-color:#fff;color:#efefef;height:38px;padding:0px;margin:0px 0px 2px 0px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;cursor:pointer;}
+/** colores de */
+.stick li{ border-radius: 8px; margin-top: 2px;list-style-type:none;background-color:transparent;color:#efefef;height:38px;padding:0px;margin:0px 0px 2px 0px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;cursor:pointer;}
 .stick li:hover{ margin-left:-150px;}
 .stick li img{ float:left;}
 .stick li p{padding-top:5px;margin:0px;line-height:16px;font-size:small;display: inline-block;}
@@ -12658,7 +12659,7 @@ hr {
 .social-icons.bigger-icons a{font-size:38px;padding-left: 14px;padding-right: 14px;}
 .social-icons a:hover { text-decoration: none !important; }
 .colored-icons .link-vk, .link-vk:hover{ color:#5181B8; }
-.colored-icons .link-facebook, .link-facebook:hover{ color:#3b5998; }
+.colored-icons .link-facebook, .link-facebook:hover{ color:#000; }
 .colored-icons .link-twitter, .link-twitter:hover{ color:#1da1f2; }
 .colored-icons .link-telegram, .link-telegram:hover{ color:#28A0D4; }
 .colored-icons .link-instagram, .link-instagram:hover{ color:#833ab4; }
@@ -12669,6 +12670,6 @@ hr {
 
 
 .eslogan{
-  font-size: 60px;
+  font-size: 52.5px;
 text-align: right;
 }
