@@ -12673,3 +12673,21 @@ hr {
   font-size: 52.5px;
 text-align: right;
 }
+
+.instituciones{
+  width:100%;
+  background-color: magenta;
+}
+.cardAbout{
+  text-align: center;
+  width: 33%;
+  height: auto;
+  background-color:black;
+}
+
+.imgcard{
+  padding: none;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
