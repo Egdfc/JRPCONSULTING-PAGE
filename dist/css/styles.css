@@ -12659,7 +12659,8 @@ hr {
 .social-icons.bigger-icons a{font-size:38px;padding-left: 14px;padding-right: 14px;}
 .social-icons a:hover { text-decoration: none !important; }
 .colored-icons .link-vk, .link-vk:hover{ color:#5181B8; }
-.colored-icons .link-facebook, .link-facebook:hover{ color:#000; }
+.colored-icons .link-facebook, .link-facebook:hover{ color:#3b5998; }
+.colored-icons .link-whatsapp, .link-whatsapp:hover{ color:#25d366; }
 .colored-icons .link-twitter, .link-twitter:hover{ color:#1da1f2; }
 .colored-icons .link-telegram, .link-telegram:hover{ color:#28A0D4; }
 .colored-icons .link-instagram, .link-instagram:hover{ color:#833ab4; }
