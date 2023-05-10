@@ -25,10 +25,4 @@ var btnEnviar=document.getElementById('submitButton');
 
 btnEnviar.onclick = presionaEnviar;
 
-function presionaEnviar(){
-    let formulario=document.getElementById('contactForm');
-    
-    return formulario;
-
-}
 

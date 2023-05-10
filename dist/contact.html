@@ -68,7 +68,7 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
-                            <form name="form1" id="contactForm" data-sb-form-api-token="API_TOKEN" method="post" action='php/enviar.php'>
+                            <form name="form1" id="contactForm" data-sb-form-api-token="API_TOKEN" method="post" action='php/enviar2.php'>
                                 <!-- Name input-->
                                 <div class="form-floating mb-3">
                                     <input class="form-control" name ="nombre" id="nombre" type="text" placeholder="Enter your name..."
@@ -84,8 +84,7 @@
                                     <label for="email">Correo Electrónico<n/label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">Correo Electrónico
                                         no es válido.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Correo electrónico no
-                                        es válido.</div>
+                            
                                 </div>
                                 <!-- Phone number input-->
                                 <div class="form-floating mb-3">
@@ -117,10 +116,6 @@
                                 <div class="d-none" id="submitSuccessMessage">
                                     <div class="text-center mb-3">
                                         <div class="fw-bolder">Form submission successful!</div>
-                                        To activate this form, sign up at
-                                        <br />
-                                        <a
-                                            href="https://startbootstrap.com/solution/contact-forms"></a>
                                     </div>
                                 </div>
                                 <!-- Submit error message-->
@@ -131,10 +126,17 @@
                                     <div class="text-center text-danger mb-3">Error al enviar el mensaje!</div>
                                 </div>
                                 <!-- Submit Button-->
-                                <div class="d-grid"><button class="btn btn-primary btn-lg " id="submitButton"
-                                        type="submit">Enviar</button></div>
-                                <input type="hidden" name="_next" value="contact.html"
+                                <div class="d-grid">
+                                    <input type="submit">
+                                    <button class="btn btn-primary btn-lg " id="submitButton"
+                                        type="submit">Enviar</button>
+                                </div>
+
+                                <input type="hidden" name="_next" value="contact.html"> 
                             </form>
+                            <?php
+                            include("php/correo.php");
+                            ?>
                         </div>
                     </div>
                 </div>
