@@ -12628,7 +12628,7 @@ hr {
 .card_text p:last-child {
   margin: 0;
 }
-.sticke li{ border-radius: 8px; margin-top: 2px;list-style-type:none;background-color:#fff;color:#efefef;height:38px;padding:0px;margin:0px 0px 2px 0px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;cursor:pointer;}
+.sticke li{ border-radius: 8px; margin-top: 2px;list-style-type:none;background-color:transparent;color:#efefef;height:38px;padding:0px;margin:0px 0px 2px 0px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;cursor:pointer;}
 
 .sticke li img{ float:left;}
 .sticke li p{padding-top:5px;margin:0px;line-height:16px;font-size:small;display: inline-block;}
