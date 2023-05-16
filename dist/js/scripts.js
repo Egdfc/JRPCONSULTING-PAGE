@@ -1,7 +1,11 @@
 window.addEventListener("scroll",function(){
 var header = this.document.querySelector(".navegacionbar");
 <<<<<<< HEAD
+<<<<<<< HEAD
 header.classList.toggle("sticky",window.scrollY> 0);
+=======
+header.classList.toggle("sticky",window.scrollY > 0);
+>>>>>>> 9ad7111f445e72242e0cd0ed6ea60c43b05f25d8
 })
 
 
